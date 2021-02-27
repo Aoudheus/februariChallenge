@@ -1,0 +1,377 @@
+body {
+  color: #080708;
+  background-image: url(images/Anita.png);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.3rem;
+}
+
+hr {
+  border-style: none;
+  border-top-style: solid;
+  border-width: 1px;
+  border-color: #e8f1f2;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+/* divs styles */
+.zwarte-div {
+  background: #080708;
+  color: #e8f1f2;
+  opacity: 0.8;
+  padding: 6%;
+  width: 80%;
+  margin: 5% auto;
+  border-radius: 1rem;
+}
+
+.transparante-divs {
+  padding: 7% 0;
+  color: #e8f1f2;
+  width: 80%;
+  margin: auto;
+}
+
+/* front */
+.enter-page-link:hover {
+  text-decoration: none;
+}
+
+.front {
+  height: 100vh;
+  margin-top: 0;
+  width: 66%;
+  margin: auto;
+}
+
+.first {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 11rem;
+  text-align: center;
+  color: #dd1c1a;
+  opacity: 0.5;
+  margin-top: 8.8rem;
+  padding: 0;
+  text-decoration: none;
+}
+
+.second {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 11rem;
+  text-align: center;
+  color: #4062bb;
+  opacity: 0.5;
+  position: relative;
+  bottom: 12.5rem;
+  padding: 0;
+}
+
+.ondertitel {
+  font-family: 'Big Shoulders Text', cursive;
+  font-size: 2.2rem;
+  color: #fdca40;
+  opacity: 0.6;
+  position: relative;
+  bottom: 10rem;
+  display: flex;
+  align-items: baseline;
+}
+
+#cursor {
+  background: #fdca40;
+  line-height: 17px;
+  margin-left: 3px;
+  -webkit-animation: blink 1.2s infinite;
+  width: 2px;
+  height: 35px;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    background: #222
+  }
+
+  50% {
+    background: #fdca40
+  }
+
+  100% {
+    background: #222
+  }
+}
+
+.click-text {
+  text-align: center;
+  position: relative;
+  bottom: 3rem;
+  /* color: #080708; */
+  color: #4062BB;
+}
+
+.click-text:hover {
+  color: #E8F1F2;
+}
+
+/* menubar */
+h1 {
+  font-size: 3rem;
+  padding: 5%;
+  margin: 0;
+}
+
+.welcome {
+  text-align: center;
+
+}
+
+.big-menu {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  text-align: center;
+  font-size: 1.7rem;
+
+}
+
+.small-menu {
+  display: none;
+  list-style-type: none;
+  padding: 0;
+}
+
+.big-item {
+  display: inline;
+  padding: 14px 24px;
+}
+
+.small-item {
+  display: inline;
+  padding: 0 10px;
+  opacity: 0.8;
+}
+
+.fa-comments {
+  color: #fdca40;
+}
+
+a {
+  color: #e8f1f2;
+}
+
+a:hover {
+  color: #e8f1f2;
+}
+
+/* aboutdiv */
+.about-photo {
+  width: 35%;
+  float: right;
+  margin-left: 3%;
+}
+
+/* vaardighedendiv */
+.skills-header {
+  color: #e8f1f2;
+}
+
+.table {
+  color: #e8f1f2;
+  margin: 15% auto;
+}
+
+.stars {
+  font-size: 1.2rem;
+  line-height: 0.9;
+}
+
+/* werkervaringdiv */
+.job {
+  margin: 2% 0;
+  padding: 2%;
+  padding-left: 0;
+  border-radius: 0.3rem;
+}
+
+.job:hover {
+  background-color: #161316;
+}
+
+.jobdescription {
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-left-color: #494850;
+  padding-left: 3%;
+}
+
+/* opleidingendiv */
+.opleiding {
+  margin-bottom: 3%;
+}
+
+.opleidingen-hr {
+  border-style: none;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #e8f1f2;
+}
+
+/* contactdiv */
+.socials {
+  margin: 7%;
+  opacity: 0.8;
+}
+
+.socials:hover {
+  opacity: 1;
+}
+
+.socials-hr {
+  display: none;
+}
+
+.contactform-item {
+  margin: 5% 0;
+  padding: 0;
+}
+
+.contactform-name1 {
+  padding: 0 1% 0 0;
+}
+
+.contactform-name2 {
+  padding: 0 0 0 1%;
+}
+
+/* footerdiv */
+.footer-img {
+  width: 100%;
+}
+
+.footer {
+  background: black;
+  padding: 7%;
+  text-align: center;
+  color: #e8f1f2;
+  font-size: 0.7rem;
+}
+
+/* media queries */
+@media (max-width: 800px) {
+  body {
+    font-size: 1.1rem;
+  }
+
+  .front {
+    height: 1024px;
+  }
+
+  .first {
+    font-size: 6.5rem;
+  }
+
+  .second {
+    font-size: 6.5rem;
+    bottom: 7.5rem;
+  }
+
+  .ondertitel {
+    bottom: 6.5rem;
+    font-size: 1.7rem;
+  }
+
+  #cursor {
+    height: 25px;
+  }
+
+  .big-menu {
+    font-size: 1.2rem;
+  }
+
+  .big-item {
+    padding: 7px 6px;
+  }
+
+  .about-photo {
+    width: 40%;
+  }
+  .table {
+    margin: 3% auto;
+  }
+  .socials-div {
+    text-align: center;
+  }
+
+  .socials-hr {
+    display: block;
+  }
+}
+
+@media (max-width: 450px) {
+  body {
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .zwarte-div {
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .transparante-divs {
+    width: 100%;
+  }
+
+  .front {
+    height: 350px;
+  }
+
+  .first {
+    font-size: 3.1rem;
+  }
+
+  .second {
+    font-size: 3.1rem;
+    bottom: 3.5rem;
+  }
+
+  .ondertitel {
+    bottom: 2.5rem;
+    font-size: 1rem;
+  }
+
+  #cursor {
+    height: 15px;
+  }
+
+  .click-text {
+    position: relative;
+    top: 10rem;
+  }
+
+  .big-menu {
+    display: none;
+  }
+
+  .small-menu {
+    display: inline;
+  }
+
+  .about-photo {
+    width: 55%;
+  }
+
+  .socials-div {
+    text-align: center;
+  }
+
+  .socials-hr {
+    display: block;
+  }
+}
